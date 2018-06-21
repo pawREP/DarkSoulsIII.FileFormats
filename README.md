@@ -108,6 +108,14 @@ Encryption  | AES CBC 256
 Key         | "ds3#jn/8_7(rsY9pg55GFN7VFL#+3n/)" (ASCII)
 IV          | First 16 bytes of the Data0.bdt file
 
+### Archive header key encryption keys
+Key         | Value
+----------- | ----------------------------------------------------------------
+Encryption  | TEA
+Key (Data1-5)   | C472AC721E54BE0AE629A36CBEC342D3
+Key (DLC1)      | 110FFA877AB40E915B7027C990BD8BC1
+Key (DLC2)      | A807A02957A8C9136454687E62055B0B
+
 ### Archive header (Data1.bhd-Data5.bhd)
 Key         | Value
 ----------- | ----------------------------------------------------------------
